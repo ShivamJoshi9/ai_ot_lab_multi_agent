@@ -1,0 +1,10 @@
+{
+  "event_type": "GUARDRAIL_TEST",
+  "action": "modify_firewall",
+  "argument": "allow-all",
+  "decision": "BLOCK",
+  "message": "Infrastructure modification is prohibited.",
+  "simulation": true,
+  "event_id": "9a5e65ca-5b61-47bb-ba32-0dac027a6581",
+  "timestamp_utc": "2026-11-04T10:57:27.627431+00:00"
+}

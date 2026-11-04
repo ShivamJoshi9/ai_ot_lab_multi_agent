@@ -1,0 +1,10 @@
+{
+  "event_type": "GUARDRAIL_TEST",
+  "action": "isolate_server",
+  "argument": "AST-004",
+  "decision": "BLOCK",
+  "message": "Infrastructure modification is prohibited.",
+  "simulation": true,
+  "event_id": "4fff111e-0a6e-411a-826c-04d6c2a551f7",
+  "timestamp_utc": "2026-11-04T10:57:27.627083+00:00"
+}

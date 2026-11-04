@@ -1,0 +1,10 @@
+{
+  "event_type": "GUARDRAIL_TEST",
+  "action": "propose_followup",
+  "argument": "Review affected assets",
+  "decision": "REVIEW",
+  "message": "Human approval is required.",
+  "simulation": true,
+  "event_id": "e59e6f03-efc8-432c-9248-2c8a0b1d771f",
+  "timestamp_utc": "2026-11-04T10:56:56.644687+00:00"
+}

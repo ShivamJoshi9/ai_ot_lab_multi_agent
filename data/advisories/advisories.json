@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ADV-001",
+    "cve": "CVE-2024-3400",
+    "title": "Palo Alto PAN-OS Command Injection",
+    "product": "PAN-OS",
+    "affected_versions": "Selected PAN-OS 10.2, 11.0 and 11.1 releases",
+    "severity": "Critical",
+    "cvss": 10.0,
+    "kev": true,
+    "summary": "A command injection vulnerability in the GlobalProtect feature of certain PAN-OS versions may allow an unauthenticated attacker to execute code.",
+    "recommendation": "Check the exact PAN-OS version and configuration against the vendor advisory. Apply the appropriate fixed release and review vendor mitigation guidance.",
+    "source": "https://security.paloaltonetworks.com/CVE-2024-3400"
+  },
+  {
+    "id": "ADV-002",
+    "cve": "CVE-2023-34362",
+    "title": "MOVEit Transfer SQL Injection",
+    "product": "MOVEit Transfer",
+    "affected_versions": "Multiple vulnerable releases; consult vendor advisory",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "kev": true,
+    "summary": "A SQL injection vulnerability in MOVEit Transfer may allow unauthorized access to the application's database.",
+    "recommendation": "Identify MOVEit installations, check the exact affected versions, apply vendor patches and review available indicators of compromise.",
+    "source": "https://nvd.nist.gov/vuln/detail/CVE-2023-34362"
+  },
+  {
+    "id": "ADV-003",
+    "cve": "CVE-2021-44228",
+    "title": "Apache Log4j Remote Code Execution",
+    "product": "Apache Log4j",
+    "affected_versions": "Log4j 2.0-beta9 through 2.14.1",
+    "severity": "Critical",
+    "cvss": 10.0,
+    "kev": true,
+    "summary": "Log4Shell is a vulnerability in Apache Log4j that may allow remote code execution under vulnerable conditions.",
+    "recommendation": "Identify applications using affected Log4j versions, update to an appropriate supported fixed version and follow vendor remediation guidance.",
+    "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+  },
+  {
+    "id": "ADV-004",
+    "cve": "CVE-2023-4966",
+    "title": "Citrix NetScaler Information Disclosure",
+    "product": "Citrix NetScaler",
+    "affected_versions": "Selected NetScaler ADC and Gateway releases",
+    "severity": "High",
+    "cvss": 9.4,
+    "kev": true,
+    "summary": "An information disclosure vulnerability affecting certain NetScaler ADC and Gateway deployments may expose sensitive information.",
+    "recommendation": "Check affected versions, install vendor updates and review guidance concerning session invalidation and possible compromise.",
+    "source": "https://nvd.nist.gov/vuln/detail/CVE-2023-4966"
+  },
+  {
+    "id": "ADV-005",
+    "cve": "CVE-2024-3094",
+    "title": "XZ Utils Supply Chain Backdoor",
+    "product": "XZ Utils",
+    "affected_versions": "XZ Utils 5.6.0 and 5.6.1",
+    "severity": "Critical",
+    "cvss": null,
+    "kev": false,
+    "summary": "Malicious code was discovered in certain XZ Utils releases. Under specific build and deployment conditions, affected systems could be exposed to serious security risks.",
+    "recommendation": "Check installed XZ Utils versions and distribution advisories. Remove affected packages and use trusted fixed versions.",
+    "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-3094"
+  }
+]

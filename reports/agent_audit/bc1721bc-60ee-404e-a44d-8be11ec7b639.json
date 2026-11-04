@@ -1,0 +1,10 @@
+{
+  "event_type": "FOLLOWUP_PROPOSAL",
+  "cve": "CVE-2021-44228",
+  "description": "Review synthetic server AST-004",
+  "action": "propose_followup",
+  "status": "PENDING",
+  "simulation": true,
+  "event_id": "bc1721bc-60ee-404e-a44d-8be11ec7b639",
+  "timestamp_utc": "2026-11-04T10:57:27.627739+00:00"
+}

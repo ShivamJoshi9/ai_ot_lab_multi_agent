@@ -1,0 +1,10 @@
+{
+  "event_type": "GUARDRAIL_TEST",
+  "action": "search_advisory",
+  "argument": "CVE-2021-44228",
+  "decision": "SUCCESS",
+  "message": "Retrieved 1 advisories.",
+  "simulation": true,
+  "event_id": "7df82ea3-972e-4596-b144-698c6ffa370c",
+  "timestamp_utc": "2026-11-04T10:56:56.644241+00:00"
+}

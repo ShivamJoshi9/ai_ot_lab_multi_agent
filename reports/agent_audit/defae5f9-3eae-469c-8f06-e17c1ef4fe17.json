@@ -1,0 +1,9 @@
+{
+  "event_type": "HUMAN_DECISION",
+  "proposal_id": "b9a99845-9428-40de-b34f-b0eed33334bc",
+  "decision": "APPROVE",
+  "execution_status": "NOT_EXECUTED",
+  "simulation": true,
+  "event_id": "defae5f9-3eae-469c-8f06-e17c1ef4fe17",
+  "timestamp_utc": "2026-11-04T11:02:46.944923+00:00"
+}

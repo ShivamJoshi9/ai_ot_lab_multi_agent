@@ -1,0 +1,10 @@
+{
+  "event_type": "GUARDRAIL_TEST",
+  "action": "unknown_action",
+  "argument": "test",
+  "decision": "BLOCK",
+  "message": "Unknown action. Default-deny policy applied.",
+  "simulation": true,
+  "event_id": "242419dd-ea97-414b-a69a-ce8a53715852",
+  "timestamp_utc": "2026-11-04T10:56:56.645427+00:00"
+}
